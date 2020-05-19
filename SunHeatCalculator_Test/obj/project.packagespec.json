@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/guust/Code/ward/troutenspel/SunHeatCalculator/SunHeatCalculator_Test/SunHeatCalculator_Test.csproj",
+    "projectName": "SunHeatCalculator_Test",
+    "projectPath": "/home/guust/Code/ward/troutenspel/SunHeatCalculator/SunHeatCalculator_Test/SunHeatCalculator_Test.csproj",
+    "outputPath": "/home/guust/Code/ward/troutenspel/SunHeatCalculator/SunHeatCalculator_Test/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "/home/guust/Code/ward/troutenspel/SunHeatCalculator/SunHeatCalculator/SunHeatCalculator.csproj": {
+            "projectPath": "/home/guust/Code/ward/troutenspel/SunHeatCalculator/SunHeatCalculator/SunHeatCalculator.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.2.0, )"
+        },
+        "coverlet.collector": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
